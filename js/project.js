@@ -1,6 +1,6 @@
-$("i").on("click", function() {
-  $("header nav a").toggleClass("open");
-});
+// $("i").on("click", function() {
+//   $("header nav a").toggleClass("open");
+// });
 
 
 
