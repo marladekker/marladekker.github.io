@@ -39,20 +39,20 @@ header nav a:hover {
 
 }
 
-/*header i {
+header i {
   display: none;
   position: absolute;
   right: 25px;
   margin-top: 0;
-  cursor: pointer;*/
+  cursor: pointer;
 }
 
-/*header i span {
+header i span {
   width: 16px;
   height: 3px;
   background-color: white;
   display: block;
-  margin: 3px 0;*/
+  margin: 3px 0;
 }
 
 .middle {
@@ -109,7 +109,7 @@ span {
 	color: rgb(213,97,3);
 }
 
-/*@media handheld, only screen and (max-width: 767px) {
+@media handheld, only screen and (max-width: 767px) {
 
  header nav {
     text-align: center;
@@ -126,7 +126,7 @@ span {
     position: absolute;
   }
 
-  nav.open {*/
+  nav.open {
     display: inherit;
   }
 
