@@ -1,0 +1,139 @@
+h1,  header nav a, p {
+	font-family: 'Roboto', sans-serif; 
+}
+
+header {
+  background-color: black;
+}
+
+h1 {
+	font-weight: 900;
+	font-size: 1.35em;
+	color: rgb(213,97,3);
+	padding-top: 15px;
+	padding-left: 60px;
+	padding-right: 0;
+	margin: 0 0;
+
+}
+
+header nav {
+  text-align: left;
+  padding-top: 20px;
+}
+
+header nav a {
+	font-size: .75em;
+	font-weight: 400;
+	color: white;
+	padding-right: 60px;
+	text-decoration: none;
+}
+
+header nav a:hover {
+	color: rgb(213,97,3);
+}
+
+.black-box {
+	background-color: #000;
+
+}
+
+header i {
+  display: none;
+  /*position: absolute;*/
+  right: 25px;
+  margin-top: 0;
+  cursor: pointer;
+}
+
+header i span {
+  width: 16px;
+  height: 3px;
+  background-color: white;
+  display: block;
+  margin: 3px 0;
+}
+
+.middle {
+	background-color: black;
+	width: 100%;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-size: 30%;
+	height: 450px;
+	background-position: center;
+}
+
+
+// Slick Styles
+
+.slick-slide {
+	text-align: center;
+	position: relative;
+}
+.slick-slide img {
+	display: inline-block;
+	width: 45%;
+	position: relative;
+}
+.slick-prev {
+	left: 15px;
+	z-index: 99;
+}
+.slick-next {
+	right: 15px;
+	z-index: 99;
+}
+
+.slick-slide h2 {
+	font-family: 'Cormorant SC', serif;
+	position: absolute;
+	top: 70.5%;
+	font-weight: 300;
+	font-size: 5.75em;
+	color: rgb(213,97,3);
+	text-align: center;
+	padding-right: 0;
+	margin: 0 0;
+}
+
+p {
+	font-size: .85em;
+	font-weight: 900;
+	line-height: 1.75em;
+}
+
+span {
+	font-weight: 300;
+	color: rgb(213,97,3);
+}
+
+@media handheld, only screen and (max-width: 767px) {
+
+ header nav {
+    text-align: center;
+    display: none;
+  }
+
+  h1 {
+  	display: relative;
+
+  }
+
+  header i {
+    display: inline-block;
+    position: absolute;
+  }
+
+  nav.open {
+    display: inherit;
+  }
+
+ header nav a {
+    display: block;
+  }
+
+
+
+
