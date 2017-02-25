@@ -56,10 +56,13 @@ header li.dropdown {
 	display: inline-block;
 }
 
+/*revise from KT*/
+
 .dropdown-content {
 	display: none;
 	position: absolute;
 	min-width: 100px;
+	z-index: 1000; 
 }
 
 
