@@ -156,7 +156,11 @@ span {
 	color: rgb(213,97,3);
 }
 
-@media handheld, only screen and (max-width: 767px) {
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 799px) {
+
+
 
  header nav {
     text-align: center;
@@ -165,7 +169,6 @@ span {
 
   h1 {
   	display: relative;
-
   }
 
   header i {
@@ -180,7 +183,8 @@ span {
  header nav a {
     display: block;
   }
+/* Styles */
 
-
+}
 
 
